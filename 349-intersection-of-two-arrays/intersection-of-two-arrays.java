@@ -17,7 +17,7 @@ class Solution {
                 if (idx == 0 || temp[idx - 1] != nums1[i]) {
                     temp[idx++] = nums1[i];
                 }
-                // i++;
+                i++;
                 j++;
             }
         }
